@@ -45,8 +45,22 @@
 }
 
 .information .obj-mis-vis article{
-  width: calc(50% - 20px);
+  width: calc(100% - 20px);
   margin-left: 10px;
   position: relative;
-  float: right;
+  float: left;
+}
+
+.information .obj-mis-vis article p{
+  position: relative;
+  float: left;
+}
+
+.information .obj-mis-vis article p:nth-child(1){
+  font-size: 24pt;
+  width: 40%;
+}
+
+.information .obj-mis-vis article p:nth-child(2){
+  width: 60%;
 }
